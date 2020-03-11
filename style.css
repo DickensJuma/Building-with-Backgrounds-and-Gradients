@@ -68,9 +68,8 @@ body {
 
 html {
   box-sizing: border-box;
-  /* font-size: 65%; */
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  /* min-height: 110%; */
+ 
 }
 
 main {
@@ -89,3 +88,21 @@ section {
     margin: 1px 1px;
 }
 
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+i {
+    color: silver;
+}
+
+nav ul li a{
+    list-style: none;
+    display: inline;
+    color: #ffff;
+}
+ul li {
+    list-style: none;
+    display: inline;
+}
