@@ -83,14 +83,14 @@ header {
     height: 538px;
 }
 nav {
-    height: 35px;
+    height: 37px;
     width: 1034px;
     border-radius: 3px;
     margin-top: 80px;
     margin-left: 180px;
     display: flex;
     justify-self: space-between;
-    background: linear-gradient(rgb(114, 114, 114), rgb(148, 147, 147) 50%, rgb(88, 88, 88) 45%);
+    background: linear-gradient(rgb(116, 115, 115), rgb(133, 132, 132) 50%, rgb(88, 88, 88) 45%);
 
 }
 .products li {
@@ -99,16 +99,14 @@ nav {
     text-align: center;
     padding:3px 30px 14px 40px;
     margin-left: 0;
-
-    
-
-    
+    margin-top: 0;
 }
 input {
-    height: 18px;
+    height: 19px;
     width: 100px;
-    background-color: slategrey;
+    background: linear-gradient(rgb(116, 115, 115), rgb(133, 132, 132) 50%, rgb(88, 88, 88) 45%);
     border-radius: 10px;
+    margin-top:10px
 }
 section {
     display: grid;
@@ -123,32 +121,55 @@ footer {
 
 i {
     color: silver;
+    position: absolute;
+    margin-top: 9px;
+    
+    
 }
 
 nav ul li a{
     list-style: none;
     display: inline;
-    color: #ffff;
+    color: #ffffff;
     text-decoration: none;
     font-size: 12px;
     line-height: 18px;
     font-weight: 400;
     margin-left: 0;
+    
 }
+
  ul li {
     list-style: none;
     display: inline;
     border-left: 1px solid rgb(131, 130, 130);
-    padding: 9px 36px ;
+    padding: 8px 36px ;
     margin:0;
     
 }
 
-.policy ul li {
+.input-search {
+    display: relative;
+}
+
+.policy p {
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+   
+}
+
+.footer-menu > li >a {
     list-style: none;
+    text-decoration: none;
     display: inline;
     border-left: 1px solid rgb(131, 130, 130);
-    padding: 9px 36px ;
-    margin:0;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    color: #0088cc;
+
 
 }
