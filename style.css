@@ -87,11 +87,12 @@ header {
     height: 538px;
 }
 nav {
-    height: 37px;
-    width: 1054px;
+    height: 36px;
+    width: 1044px;
     border-radius: 3px;
     margin-top: 80px;
     margin-left: 180px;
+    font-weight: bolder;
     display: flex;
     justify-self: space-between;
     background: linear-gradient(rgb(116, 115, 115), rgb(133, 132, 132) 50%, rgb(88, 88, 88) 45%);
@@ -106,8 +107,9 @@ nav {
 input {
     height: 19px;
     width: 100px;
-    background: linear-gradient(rgb(116, 115, 115), rgb(133, 132, 132) 50%, rgb(88, 88, 88) 45%);
+    background: linear-gradient(rgb(156, 156, 156), rgb(133, 132, 132) 50%, rgb(88, 88, 88) 45%);
     border-radius: 10px;
+    box-shadow: inset 0px -4px 3px rgba(50, 50, 50, 0.75);
     margin-top:10px;
 
 }
@@ -117,7 +119,6 @@ input {
 display: flex;
 justify-self: center;
 flex-direction: column ;
-/* margin-left: 180px; */
 margin-top: 30px;
 font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 font-size: 24px;
@@ -137,20 +138,26 @@ line-height: 36px;
 }
 
 .cta{
-  height: 64px;
+  height: 32px;
   width: 980px;
-  margin: 0 230px;
+  margin: 30px 230px;
+  
 }
 section {
     display: grid;
     grid-template-columns: repeat(4,1fr);
     margin: 1px 1px;
 }
-
+.fa-search{
+position: absolute;
+font-size: 0.8rem;
+margin:15px 7px ;
+}
 
 .apple {
   font-size: 1.5rem;
   color: #ffffff;
+  
     
 }
 
@@ -184,6 +191,7 @@ nav ul li {
 .input-search {
     display: relative;
     color: #ffffff;
+    /* margin-right: -30px; */
     
 }
 
@@ -197,6 +205,7 @@ nav ul li {
     line-height: 12px;
     color: gray;
     width: 500px;
+    margin: 10px;
    
 }
 
@@ -241,8 +250,6 @@ footer {
 }
 .footer-menu li > a:last-child {
   border-right: 1px solid rgb(182, 179, 179);
-  /* margin-top: 10px;
-  margin-bottom: 10px; */
 }
 .usa {
   margin: 5px 5px;
