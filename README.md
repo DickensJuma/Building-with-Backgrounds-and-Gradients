@@ -95,7 +95,9 @@ You can see it working [here](https://raw.githack.com/DickensJuma/Building-with-
 - E-mail: dickensjuma13@gmail.com
 
 
+## Show your support
 
+Give a ⭐️ if you like this project!
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
