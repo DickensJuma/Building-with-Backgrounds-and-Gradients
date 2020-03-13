@@ -95,14 +95,13 @@ header {
 
 /* navigation section */
 nav {
-    height: 34px;
+    height: 36px;
     width: 1044px;
     border-radius: 3px;
-    margin-top: 80px;
+    margin-top: 70px;
     margin-left: 180px;
     font-weight: bolder;
     display: flex;
-    justify-self: space-between;
     background: linear-gradient(rgb(116, 115, 115), rgb(133, 132, 132) 50%, rgb(88, 88, 88) 45%);
 }
 .products:last-child{
@@ -112,9 +111,17 @@ nav {
 }
 
 .products li {
-    border-left: 1px solid rgb(141, 140, 140);
+    border-left: 1px solid rgb(100, 100, 100);
     align-items: center;
     text-align: center;
+}
+
+.products li:first-child{
+  border-left:none
+}
+
+.products li:last-child{
+  border-right: 1px solid rgb(100, 100, 100);
 }
 
 .nav-input {
@@ -157,12 +164,11 @@ margin-top: 30px;
   
 }
 
-
 .fa-search{
 position: absolute;
 font-size: 0.8rem;
 color: honeydew;
-top:93px;
+top:85px;
 margin-left: 8px;
 }
 
@@ -210,7 +216,6 @@ footer {
   width:100% ;
   height:30px ;
   display: flex;
-  flex-direction: space-between;
   justify-content: center;
   align-self: center;
   margin-top: 30px;
