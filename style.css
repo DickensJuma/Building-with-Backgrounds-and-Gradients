@@ -96,7 +96,7 @@ header {
 /* navigation section */
 nav {
   height: 36px;
-  width: 1044px;
+  width: 1000px;
   border-radius: 3px;
   margin-top: 70px;
   margin-left: 180px;
@@ -124,8 +124,11 @@ nav {
 }
 
 .nav-input {
-  height: 20px;
-  width: 110px;
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  height: 19px;
+  width: 93px;
   background: linear-gradient(
     rgb(112, 112, 112),
     rgb(133, 132, 132) 50%,
@@ -133,8 +136,6 @@ nav {
   );
   border-radius: 10px;
   box-shadow: inset 0px -4px 3px rgba(50, 50, 50, 0.75);
-  position: absolute;
-  margin-bottom: 10px;
 }
 
 /* introduction section */
@@ -173,11 +174,10 @@ align-items: center;
 
 
 .fa-search {
-  position: absolute;
+  position: relative;
+left:-85px;
+  color: white;
   font-size: 0.8rem;
-  color: honeydew;
-  top: 83px;
-  margin-left: 8px;
 }
 
 .apple {
